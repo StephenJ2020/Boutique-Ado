@@ -23,14 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-bbwxo27!r1d$fij1g0@!3vi_eejw85^5mxuffiwo1_xqk575h$' 
-#os.environ.get('SECRET_KEY', 
+SECRET_KEY = 'django-insecure-bbwxo27!r1d$fij1g0@!3vi_eejw85^5mxuffiwo1_xqk575h$'
+# os.environ.get('SECRET_KEY',
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-#os.environ.get('HEROKU_HOSTNAME')
+# os.environ.get('HEROKU_HOSTNAME')
 
 
 # Application definition
@@ -98,7 +98,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGHT = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/'   
+LOGIN_REDIRECT_URL = '/'
 # to test set-up use '/success'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
