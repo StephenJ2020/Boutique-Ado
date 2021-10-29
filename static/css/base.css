@@ -10,7 +10,7 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bulma */
+/* from Bulma - ensures font awesome icons remain centered and consistent in size */
 .icon {
     align-items: center;
     display: inline-flex;
